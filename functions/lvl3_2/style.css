@@ -1,0 +1,33 @@
+@font-face {
+    font-family: cinzel;
+    src: url("./fonts/Cinzel-Bold.ttf");
+}
+
+@font-face {
+    font-family: frede;
+    src: url("./fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: nunito;
+    src: url("./fonts//Nunito-Light.ttf");
+}
+
+body {
+    background-color: darkblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5rem 20rem;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+h2 {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}

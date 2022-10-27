@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts-generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2>Font-Generator</h2>
+    <form action="">
+        <label for="range">Font-Size</label>
+        <input onchange="changeFontsSize()" type="range" id="range">
+        <br>
+        <label for="text">Type the Text:</label>
+        <input onchange="changeFontsSize()" type="text" id="text" placeholder="Put here the Text">
+
+        <select onchange="changeFontsSize()" name="fonts" id="fonts">
+            <option value="cinzel">Cinzel</option>
+            <option value="frede">Frede</option>
+            <option value="nunito">Nunito</option>
+        </select>
+
+        <h1>Text</h1>
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
